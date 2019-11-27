@@ -1,0 +1,119 @@
+html{
+    scroll-behavior: smooth;
+}
+.topnav{
+    overflow: hidden;
+    background-color: black;
+    margin: 0px;
+}
+#logoHead{
+    padding: 10px;
+}
+.topnav a{
+    color: white;
+    float: right;
+    padding: 25px 0px ;
+    line-height: 40px;
+    text-align: center;
+    text-decoration: none;
+    width: 15%;
+    font-size:25px;
+}
+.topnav a:hover{
+    color: #9EAF3B; 
+}
+
+a#active {
+    color: #9EAF3B;
+}
+.menu{
+    text-align: center;
+}
+.menu::before {
+    background-image: url("pizza/bg4.jpg");
+    background-size: cover;
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 110%;
+    z-index: -2;
+    opacity: 0.4;
+}
+#menuTable{
+    display: block;
+    background-color: rgba(0,0,0,0.3);
+}
+.menu a{
+    text-decoration: none;
+    color: black;
+    font-size: 50px;
+    
+}
+#pizza{
+    padding: 60px;
+    
+}
+#food{
+    padding: 60px;
+}
+#dessert{
+    padding: 60px;
+}
+#drink{
+    padding: 60px;
+}
+#pizza a:hover{
+    color: #9EAF3B;
+    
+}
+#food a:hover{
+    color: #9EAF3B;
+}
+#dessert a:hover{
+    color: #9EAF3B;
+}
+#drink a:hover{
+    color: #9EAF3B;
+}
+.line{
+    display: block;
+    border-style: outset;
+    border-color: black;
+    border-width: 2px;
+    border-radius: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    width:50%;
+}
+
+footer{
+    width: 100%;
+    height: 120px;
+    background-color: black;
+    display: block;
+    position: relative;
+    bottom: 0;
+    box-sizing: border-box;
+    margin-top: 40px;
+}
+.footElement{
+    display: inline-block;
+    padding: 15px 60px;
+    color: white;
+    line-height: 10px;
+}
+#thong{
+    padding: 0px 0px 0px 60px;
+}
+.logo{
+    display: inline-block;
+    padding: 0px 60px 0px 20px;
+}
+.footElement p, .footElement span{
+    font-size: 20px;
+    font-weight: normal;
+}
+

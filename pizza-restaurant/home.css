@@ -1,0 +1,146 @@
+.title{
+    width: 100%;
+    height: 800px;
+    text-align: center;
+    background-image: url("home/title.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#quote{
+    font-size: 60px;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.welcome{
+    display: flex;
+    justify-content: flex-start;
+    height: 500px;
+    margin: 0px 0px;
+    
+    background-color: rgba(0,0,0,1);
+    align-items: center;
+}
+#welTitle{
+    width: 60%;
+    text-align: center;
+    line-height: 150px;
+    font-size: 22px;
+    color: white;
+}
+#welContent{
+    width: 40%;
+    margin-right: 300px;
+    font-size: 18px;
+    color:white;
+    line-height: 25px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.topic{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    justify-content: space-around;
+    grid-gap: 5px;
+    background-color: black;
+    padding: 30px 0px 15px 0px;
+    
+}
+.topicElement span{
+    text-align: center;
+    display: block;
+    color: white;
+    font-size: 30px;
+    position: relative;
+    bottom: 50%;
+    z-index: 10;
+
+}
+
+.topicElement img{
+    opacity: 0.4;
+}
+.topicElement img:hover{
+    opacity: 1;
+}
+
+.magic{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    justify-content: space-around;
+    background-color: black;
+    padding: 10px 0px 50px 0px;
+}
+#magicContent{
+    width: 85%;
+    margin: auto;
+    line-height: 35px;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+}
+#magicPic{
+    margin: 40px 10px;
+}
+
+.ourMenu{
+    text-align: center;
+    width: 100%;
+    background-image: url("home/bg_menu.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.ourMenuNav{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto;
+    width: 80%;
+    margin: auto;
+}
+.ourMenuItem{
+    border-left: white solid 1px;
+    padding: 50px;
+    margin-bottom: 40px
+}
+.ourMenuItem a{
+    text-decoration: none;
+    font-size: 30px;
+    color: white;
+}
+.ourMenuItem a:hover{
+    color: #9EAF3B;
+}
+#ourMenuHead{
+    grid-column: 1 / span 4;
+    color: white;
+    padding: 50px;
+    font-weight: normal;
+}
+
+.locationHome{
+    width: 100%;
+    background-color:black;
+    text-align: center;
+    color: white;
+}
+#locationHead{
+    text-align: center;
+    padding: 50px 0px;
+}
+#locationHead span{
+    font-size: 32px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+#googleMap{
+    width: 100%;
+    height: 600px;
+}

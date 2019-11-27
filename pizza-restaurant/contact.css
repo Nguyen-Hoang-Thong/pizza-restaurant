@@ -1,0 +1,90 @@
+.contactBG{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("contact/bg_contact.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+}
+#contactTitle{
+    color: white;
+    font-size: 100px;
+}
+
+.contactBody{
+    display: grid;
+    grid-template-columns: 60% 40%;
+}
+#info{
+    padding: 100px 0px 0px 50px;
+}
+.container{
+    width: 100%;
+    display: block;
+    margin: 10px 0px;
+}
+.icon{
+    background-color: black;
+    width: 44px;
+    height: 44px;
+    border-radius: 4px;
+    text-align: center;
+    display: inline-block;
+}
+.icon img{
+    margin: 25% 0%;
+}
+.iconSub{
+    display: inline-block;
+    font-size: 25px;
+    position: relative;
+    bottom: 15px;
+}
+
+.formContainer{
+    background-image: url("contact/bg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 800px;
+    text-align: center;
+    border: white solid 0.1px;
+}
+
+.contactForm{
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+    width: 40%;
+    font-size: 20px;
+    margin: 110px auto;
+    border: black solid 3px;
+}
+
+input, textarea{
+    width: 70%;
+    padding: 10px;
+    margin: 10px 0px;
+    font-size: 20px;
+    background-color: black;
+    color: white;
+    border-style: none;
+}
+
+#send{
+    width:30%;
+    border-radius: 4px;
+    margin-bottom: 25px;
+    background-color: black;
+    color: white;
+    
+}
+.contactForm span{
+    font-size: 40px;
+    line-height: 80px;
+}
+

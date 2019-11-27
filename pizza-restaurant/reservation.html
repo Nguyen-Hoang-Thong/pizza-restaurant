@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html style="font-family: Arial">
+
+<head>
+    <link rel="stylesheet" type="text/css" href="restaurant.css">
+    <link rel="stylesheet" type="text/css" href="reservation.css">
+</head>
+
+<header>
+    <div class="topnav">
+        <a href="contact.html">Contact us</a>
+        <a href="#" id="active">Reservation</a>
+        <a href="menu.html">Menu</a>
+        <a href="index.html" >Home</a>
+        <div id="logoHead">
+            <img src="menu_img/logo.jpg" alt="logo" width="90" height="70">
+        </div>
+    </div>
+
+    <div class="revBG">
+        <div>
+            <span>Make Reservation</span>
+        </div>
+    </div>
+</header>
+
+<body>
+    
+    <div class="container">
+        <div id="chef">
+            <img src="reservation/chef.jpg" alt="chef" width="100%" height="100%">
+        </div>
+            
+        <h1>Book a table</h1>
+
+        <div>
+            
+            <form class="formContainer" action="https://docs.google.com/forms/u/1/d/e/1FAIpQLSc1ortM9cfif2LlRn_VOZG5QUFZc_ibL9o_S-7CI-Mq-59Jlg/formResponse" target="_blank">
+                <div>
+                    <label for="name">Name</label><br>
+                    <input type="text" name="entry.1424771331" id="name" placeholder="Your Name" required>
+                </div>
+                <div>
+                    <label for="email">Email</label><br>
+                    <input type="email" name="entry.113572584" id="email" placeholder="Your Email" required>
+                </div>
+                <div>
+                    <label for="phone">Phone</label><br>
+                    <input type="tel" name="entry.2092786465" id="phone" placeholder="Phone" required>
+                </div>
+                <div>
+                    <label for="date">Date</label><br>
+                    <input type="date" name="entry.681721528" min="31-12-2005" id="date" placeholder="Date" required>
+                </div>
+                <div>
+                    <label for="time">Time</label><br>
+                    <input type="time" name="entry.1981316515" id="time" placeholder="Time" required>
+                </div>
+                <div>
+                    <label for="person">Person</label><br>
+                    <input type="number" name="entry.16594373" id="person" placeholder="Person" required>
+                </div>
+               <div>
+                    <br>
+                    <input type="submit" name="Make a reservation" value="OK" required>
+               </div>
+                
+        </form>
+        </div>
+        
+    </div>
+    
+</body>
+
+<footer>
+    <div class="foot">
+        <div class="logo">
+            <img src="menu_img/logo.jpg" alt="logo" width="70" height="60">
+        </div>
+        <div class="footElement">
+            <p>Follow us:</p>
+            <a href="https://www.facebook.com/thong.nguyen45" target="_blank"><img src="menu_img/fb_logo.png" alt="fb" width="20" height="20"></a>
+            <a href="https://www.instagram.com/thong.nguyen_/" target="_blank"><img src="menu_img/ins.jpg" alt="ins" width="20" height="20"></a>
+        </div>
+        <div class="footElement">
+            <p>For inquiry:</p><br>
+            <span>info@pizza.com</span>
+        </div>
+        <div class="footElement">
+            <p>For feedback:</p><br>
+            <span>feedback@pizza.com</span>
+        </div>
+        <div class="footElement" id="thong">
+            <p>@2019 Pizza</p>
+        </div>
+    </div>
+</footer>
+<script src="reservation.js"></script>
+</html>
+
